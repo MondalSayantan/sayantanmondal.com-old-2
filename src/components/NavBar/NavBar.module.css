@@ -1,0 +1,98 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.navbarLinks {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarLogo {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbarLogo p {
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+}
+
+.navbarMenu {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarMenu p {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbarToggle {
+  display: none;
+  position: relative;
+}
+
+.navbarToggleMenu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  text-align: end;
+  background: #aa96da;
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.navbarToggleMenu p {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 1rem 0;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+  .navbarMenu {
+    display: none;
+  }
+  .navbarToggle {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+    padding: 2rem;
+  }
+  .navbarToggleMenu {
+    top: 20px;
+  }
+}
