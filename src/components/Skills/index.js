@@ -1,9 +1,12 @@
 import React from "react";
 import * as componentStyles from "./Skills.module.css";
-import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript } from "react-icons/Io";
-import { FaReact, FaNodeJs } from "react-icons/Fa";
-import { RiGatsbyFill } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
+import { IoLogoHtml5 } from "@react-icons/all-files/io/IoLogoHtml5";
+import { IoLogoCss3 } from "@react-icons/all-files/io/IoLogoCss3";
+import { IoLogoJavascript } from "@react-icons/all-files/io/IoLogoJavascript";
+import { FaReact } from "@react-icons/all-files/fa/FaReact";
+import { FaNodeJs } from "@react-icons/all-files/fa/FaNodeJs";
+import { RiGatsbyFill } from "@react-icons/all-files/ri/RiGatsbyFill";
+import { SiMongodb } from "@react-icons/all-files/si/SiMongodb";
 
 const Skills = () => {
   return (
