@@ -6,6 +6,7 @@
   font-family: var(--font-family);
   margin: 0 6rem;
   padding: 2rem;
+  padding-bottom: 0rem;
   display: flex;
   justify-content: center;
   align-items: center;

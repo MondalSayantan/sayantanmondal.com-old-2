@@ -1,0 +1,140 @@
+.projectCard {
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 60rem;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: #fff;
+  font-family: var(--font-family);
+}
+
+.projectCardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.projectCardImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+}
+
+.projectCardImage {
+  border-radius: 1rem;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.description {
+  font-family: var(--font-family);
+  color: #fff;
+}
+
+.link button {
+  padding: 0.2rem 1rem;
+  background: #ff4820;
+  color: #fff;
+  font-family: var(--font-family);
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+  .projectCard {
+    width: 100%;
+  }
+  .projectCardImage {
+    border-radius: 0.5rem;
+    height: 9rem;
+    width: 14rem;
+  }
+  .projectCardImageContainer {
+    height: 10rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .projectCard {
+    width: 100%;
+  }
+  .projectCardImage {
+    border-radius: 0.5rem;
+    height: 9rem;
+    width: 14rem;
+  }
+  .projectCardBody {
+    padding: 0 1rem 1rem 1rem;
+  }
+  .projectCardImageContainer {
+    height: 10rem;
+    padding: 1rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .description {
+    margin: 1rem;
+    font-size: 0.9rem;
+  }
+  .links button {
+    padding: 0rem 1rem;
+    line-height: 10px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .projectCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .projectCardImage {
+    border-radius: 0.5rem;
+    height: 9rem;
+    width: 18rem;
+  }
+  .projectCardImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    padding: 0.2rem;
+  }
+}
