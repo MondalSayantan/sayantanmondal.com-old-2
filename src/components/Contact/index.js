@@ -41,7 +41,6 @@ const Contact = () => {
             <form
               name="contact"
               method="post"
-              data-netlify-recaptcha="true"
               data-netlify="true"
               className={componentStyles.form}
               onSubmit="submit"
@@ -59,7 +58,6 @@ const Contact = () => {
                 <textarea class="" name="message" required></textarea>
                 <label>Message:</label>
               </div>
-              <div data-netlify-recaptcha="true"></div>
               <button className={componentStyles.submitBtn} type="submit">
                 Send
               </button>
