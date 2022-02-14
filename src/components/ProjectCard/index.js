@@ -7,7 +7,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx";
 const ProjectCard = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMdx {
+      allMdx(filter: { fileAbsolutePath: { regex: "/(projects)/" } }) {
         nodes {
           frontmatter {
             title
