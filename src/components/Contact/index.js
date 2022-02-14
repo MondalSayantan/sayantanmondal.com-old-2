@@ -40,10 +40,11 @@ const Contact = () => {
             <p>Send Me a Message</p>
             <form
               name="contact"
-              method="POST"
+              method="post"
               data-netlify-recaptcha="true"
               data-netlify="true"
               className={componentStyles.form}
+              onSubmit="submit"
             >
               <input type="hidden" name="form-name" value="contact" />
               <div className={componentStyles.formItem}>
