@@ -8,7 +8,7 @@ const Header = () => {
       <div className={componentStyles.headerText}>
         <h1 className={componentStyles.gradientText}>
           Hi. <br />
-          I'm Sayantan
+          I'm Sayantan.
         </h1>
       </div>
       <div>

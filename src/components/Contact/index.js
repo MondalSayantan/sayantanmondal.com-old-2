@@ -6,7 +6,7 @@ import { AiFillGithub } from "@react-icons/all-files/ai/AiFillGithub";
 
 const Contact = () => {
   return (
-    <div className={componentStyles.contact}>
+    <div className={componentStyles.contact} id={"contact"}>
       <h1 className={componentStyles.contactTitle}>Contact</h1>
       <div className={componentStyles.contactContainer}>
         <div className={componentStyles.contactBox}>
@@ -16,19 +16,28 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/mondalsayantan/"
                 target={"_blank"}
+                rel="noopener noreferrer"
               >
                 <div className={componentStyles.link}>
                   <AiFillLinkedin size={30} color="#fff" />
                   <p>@MondalSayantan</p>
                 </div>
               </a>
-              <a href="https://twitter.com/sayantannnnn" target={"_blank"}>
+              <a
+                href="https://twitter.com/sayantannnnn"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
                 <div className={componentStyles.link}>
                   <AiOutlineTwitter size={30} color="#fff" />
                   <p>@sayantannnnn</p>
                 </div>
               </a>
-              <a href="https://github.com/MondalSayantan" target={"_blank"}>
+              <a
+                href="https://github.com/MondalSayantan"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
                 <div className={componentStyles.link}>
                   <AiFillGithub size={30} color="#fff" />
                   <p>@MondalSayantan</p>
@@ -42,10 +51,16 @@ const Contact = () => {
               name="contact"
               method="post"
               data-netlify="true"
+              netlify-honeypot="bot-field"
               className={componentStyles.form}
               onSubmit="submit"
             >
               <input type="hidden" name="form-name" value="contact" />
+              <input
+                className={componentStyles.hidden}
+                type="text"
+                name="bot-field"
+              />
               <div className={componentStyles.formItem}>
                 <input type="text" name="sender" required />
                 <label>Name:</label>

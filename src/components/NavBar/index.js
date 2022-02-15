@@ -4,9 +4,9 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
 const Menu = () => (
   <>
-    <p>
+    {/* <p>
       <a href="#home">Home</a>
-    </p>
+    </p> */}
     <p>
       <a href="#about">About Me</a>
     </p>
@@ -25,7 +25,7 @@ const Menu = () => (
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className={componentStyles.navbar}>
+    <div className={componentStyles.navbar} id={"navbar"}>
       <div className={componentStyles.navbarLinks}>
         <div className={componentStyles.navbarLogo}>
           <p>Sayantan Mondal</p>

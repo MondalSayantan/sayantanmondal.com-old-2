@@ -44,7 +44,11 @@ const ProjectCard = () => {
                 </p>
               </div>
               <div className={componentStyles.link}>
-                <a href={node.frontmatter.link} target="_blank">
+                <a
+                  href={node.frontmatter.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button>Link</button>
                 </a>
               </div>

@@ -3,7 +3,7 @@ import * as componentStyles from "./About.module.css";
 
 const About = () => {
   return (
-    <div className={componentStyles.about}>
+    <div className={componentStyles.about} id={"about"}>
       <div className={componentStyles.box}>
         <div className={componentStyles.aboutTitle}>
           <h1 className={componentStyles.aboutTitleText}>About Me</h1>

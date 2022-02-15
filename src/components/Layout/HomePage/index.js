@@ -5,6 +5,7 @@ import About from "../../About";
 import Skills from "../../Skills";
 import Projects from "../../Projects";
 import Contact from "../../Contact";
+import Footer from "../../Footer";
 
 import * as componentStyles from "./HomePage.module.css";
 
@@ -20,6 +21,9 @@ const HomePage = () => {
         <Skills />
         <Projects />
         <Contact />
+      </div>
+      <div className={componentStyles.footer}>
+        <Footer />
       </div>
     </>
   );

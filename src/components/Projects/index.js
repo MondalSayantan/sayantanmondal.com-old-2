@@ -4,8 +4,8 @@ import ProjectCard from "../ProjectCard";
 
 const Projects = () => {
   return (
-    <div className={componentStyles.projects}>
-      <div className={componentStyles.projectsContainer}>
+    <div className={componentStyles.projects} id={"projects"}>
+      <div>
         <h1 className={componentStyles.projectsTitle}>Projects</h1>
         <div>
           <ProjectCard />
