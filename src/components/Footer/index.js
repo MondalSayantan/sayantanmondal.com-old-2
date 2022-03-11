@@ -5,9 +5,9 @@ import { AiFillHeart } from "@react-icons/all-files/ai/AiFillHeart";
 const Footer = () => {
   return (
     <div className={componentStyles.footer}>
-      <a href="#navbar">
-        <p className={componentStyles.logo}>SM</p>
-      </a>
+      {/* <a href="#top"> */}
+      <p className={componentStyles.logo}>SM</p>
+      {/* </a> */}
       <p>
         Made with <AiFillHeart color="#e31b23" /> and{" "}
         <a

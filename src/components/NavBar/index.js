@@ -17,7 +17,13 @@ const Menu = () => (
       <a href="#contact">Contact</a>
     </p>
     <p>
-      <a href="#blog">Blog</a>
+      <a
+        href="https://blog.sayantanmondal.com/"
+        target={"_blank"}
+        rel="noopener noreferrer"
+      >
+        Blog
+      </a>
     </p>
   </>
 );
