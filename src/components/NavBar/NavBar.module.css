@@ -71,6 +71,7 @@
   color: #fff;
   margin: 1rem 0;
   line-height: 20px;
+  z-index: 99999;
 }
 
 @media screen and (max-width: 1050px) {
@@ -95,4 +96,7 @@
   .navbarToggleMenu {
     top: 20px;
   }
+}
+
+.componentStyles.navbarToggleMenuZ {
 }

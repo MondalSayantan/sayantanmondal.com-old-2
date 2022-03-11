@@ -12,7 +12,11 @@ const Header = () => {
         </h1>
       </div>
       <div>
-        <StaticImage src="../../assets/images/header.png" />
+        <StaticImage
+          src="../../assets/images/header.png"
+          loading="eager"
+          style={{ zIndex: "10", position: "relative" }}
+        />
       </div>
     </div>
   );

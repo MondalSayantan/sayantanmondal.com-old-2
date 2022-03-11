@@ -11,8 +11,8 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: bounce-in-top 1.1s both;
-  animation: bounce-in-top 1.1s both;
+  /* -webkit-animation: bounce-in-top 1.1s both;
+  animation: bounce-in-top 1.1s both; */
   font-size: 4rem;
 }
 

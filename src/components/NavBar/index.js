@@ -55,10 +55,12 @@ const NavBar = () => {
           />
         )}
         {toggleMenu && (
-          <div className={componentStyles.navbarToggleMenu}>
-            {/* <div className=" "> */}
-            <Menu />
-            {/* </div> */}
+          <div className={componentStyles.navbarToggleMenuZ}>
+            <div className={componentStyles.navbarToggleMenu}>
+              {/* <div className=" "> */}
+              <Menu />
+              {/* </div> */}
+            </div>
           </div>
         )}
       </div>
